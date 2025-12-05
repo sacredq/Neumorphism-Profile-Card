@@ -1,0 +1,118 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+    font-family: 'Popins', sans-serif;
+}
+
+body{
+    display: flex; justify-content: center; align-items: center;
+    min-height: 100vh; 
+    background: #ecf0f3;
+}
+
+.container_box{
+    background: #ecf0f3;
+    box-shadow: -3px -3px 7px #ffffff,
+                3px 3px 5px #ceced1;
+    width: 350px; padding: 30px; border-radius: 10px; 
+}
+
+.pph{
+    margin: 0 auto;
+    height: 150px; width: 150px; border-radius: 50%;
+    display: flex; justify-content: center; align-items: center;
+}
+
+.image{
+    height: calc(100% - 25px);
+    width: calc(100% - 25px);
+    border-radius: 50%;
+}
+
+.image img{
+    height: 100%; width: 100%; border-radius: 50%;
+}
+
+.Top_icons{
+    display: flex; flex-direction: row; align-items: center;
+    justify-content: space-between;
+}
+
+.fa-arrow-left{
+    cursor: pointer;
+}
+
+.fa-ellipsis-v{
+    cursor: pointer;
+}
+
+.name{
+    margin-top: 6px;
+    display: flex; justify-content: center; align-items: center;
+}
+
+.job{
+    margin-top: 6px;
+    display: flex; justify-content: center; align-items: center;
+}
+
+.icons .icon_box:nth-child(1){
+    color: #4267B2;
+}
+
+.icons .icon_box:nth-child(2){
+    color: #1DA1F2;
+}
+
+.icons .icon_box:nth-child(3){
+    color: #E1306C;
+}
+
+.icons .icon_box:nth-child(4){
+    color: #ff0000;
+}
+
+.icons{
+    margin-top: 1rem;
+    display: flex; flex-direction: row; align-items: center;
+    justify-content: center; gap: 8px;
+}
+
+.icon{
+    cursor: pointer;
+    display: flex; justify-content: center; align-items: center;
+    margin: 0 auto; font-size: 20px;
+}
+
+.icon_box{
+    position: relative;
+    height: 40px;
+    width: 40px;
+    margin: 0 5px;
+    display: inline-flex;
+    text-decoration: none;
+    border-radius: 50%;
+    background: #ecf0f3;
+    box-shadow: inset -3px -3px 7px #ffffff,
+                        inset 3px 3px 5px #ceced1;
+}
+
+.buttons{
+    margin-top: 20px;
+    display: flex; flex-direction: row; align-items: center;
+    justify-content: space-between; gap: 25px;
+}
+
+.btn{
+    width: 100%; border: none; color: #31344b;
+    padding: 12px 0; cursor: pointer;
+    outline: none; font-size: 17px; font-weight: 400; border-radius: 5px;
+    z-index: 4; background: #ecf0f3; transition: 0.2s;
+    box-shadow: -3px -3px 7px #ffffff,
+                3px 3px 5px #ceced1;
+}
+
+.bot_icons{
+    margin-top: 24px;
+    display: flex; flex-direction: row;
+    justify-content: center; align-items: center; gap: 24px;
+}
